@@ -2,7 +2,7 @@ object Assignment_1 extends App {
   def greetings(name: String, age: Int): String={
     "Hi my name is "+name+" and I am "+age+" years Old"
   }
-  println(greetings("xavier",18))
+  println(greetings("xavier",18))//hey use comments
   def factorial(lnumber: Int): Int={
 
     if(lnumber == 1 ) lnumber else lnumber*factorial(lnumber-1)
