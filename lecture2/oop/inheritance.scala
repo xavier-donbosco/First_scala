@@ -1,5 +1,5 @@
 package lecture2.oop
-
+// This is command line
 object inheritance extends App {
   val beast=new Beast
   println(beast.creatureType)
