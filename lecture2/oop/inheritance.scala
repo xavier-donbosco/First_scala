@@ -1,5 +1,8 @@
 package lecture2.oop
-// This is command line
+// This is single line comment
+/*
+  This is multi-line comment
+*/
 object inheritance extends App {
   val beast=new Beast
   println(beast.creatureType)
