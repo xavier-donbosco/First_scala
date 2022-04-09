@@ -4,7 +4,7 @@ object Assignment_1 extends App {
   }
   println(greetings("xavier",18))//hey use comments
   def factorial(lnumber: Int): Int={
-
+//hey this is recursive function
     if(lnumber == 1 ) lnumber else lnumber*factorial(lnumber-1)
   }
   println(factorial(5))
