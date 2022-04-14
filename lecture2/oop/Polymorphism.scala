@@ -11,6 +11,7 @@ val ani=new Animal
 ani.eat
 val c1=new Cat
 c1.eat
+//polymorphic call
 val cat:Animal =new Cat
 cat.eat
 }
